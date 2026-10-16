@@ -33,14 +33,6 @@ function changeImage() {
     }, 800);
 }
 
-window.addEventListener("load", () => {
-    const loader = document.getElementById("loader");
-
-    setTimeout(() => {
-        loader.classList.add("hide");
-    }, 2200);
-});
-
 setInterval(changeImage, 3500);
 
 const productData = {
